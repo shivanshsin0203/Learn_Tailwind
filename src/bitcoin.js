@@ -24,12 +24,17 @@ function Bitcoin() {
             <div className='md:hidden'>
                 <a className=' text-4xl' href='#'>&#8801;</a>
             </div>
-           </div>
+        </div>
            <div className='w-full md:h-[200px]  flex flex-wrap items-center justify-center md:text-[50px] mt-[60px] p-7 text-[30px] '>
                 <div className='text-center opacity-90'>
                     Bitcoin is an innovative payment <br />network and a new kind of money.
                 </div>
            </div>
+           <div className='w-full h-32 flex flex-col sm:flex-row mt-4 md:mt-1 p-4 items-center justify-center sm:space-x-6 space-y-4'>
+            <div className='w-[280px] h-14 bg-orange-400 text-white flex items-center justify-center p-2 font-semibold md:mt-4 cursor-pointer'>Get Started With Bitcoin</div>
+            <div className='w-[280px] h-14 border border-orange-400 text-orange-400 flex items-center justify-center p-2 font-semibold cursor-pointer'>Choose your wallet</div>
+            <div className='w-[280px] h-14 border border-orange-400 text-orange-400 flex items-center justify-center p-2 font-semibold cursor-pointer'>Buy Bitcoin</div>
+            </div>
 
     </div>
   )
