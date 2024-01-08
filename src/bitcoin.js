@@ -45,7 +45,30 @@ function Bitcoin() {
                 What is bitcoin ?
              </div>
              </div>
-          
+             <div className='w-full h-[700px] bg-black bg-opacity-75 mt-[150px]'>
+                    <div className='flex text-yellow-50 text-2xl py-[180px] justify-center'>
+                        Get a quick overview for
+                    </div>
+
+                    <div className=' flex justify-center space-x-5 mt-0'>
+                        <div className='w-[250px] h-[220px] bg-black bg-opacity-90 flex flex-col justify-center items-center space-y-3'>
+                        <img src='https://icons.veryicon.com/png/o/miscellaneous/44-2px-linear/people-17.png' className='w-[50px] space-y-5'></img>
+                        <span className='text-white font-semibold text-xl'>Individuals</span>
+                        <span className='text-gray-700 text-[15px]'>Learn More</span>
+                        </div>
+                        <div className='w-[250px] h-[220px] bg-black bg-opacity-90 flex flex-col justify-center items-center space-y-3'>
+                        <img src='https://cdn3.vectorstock.com/i/1000x1000/16/57/shopping-bag-orange-icon-on-black-vector-13391657.jpg' className='w-[50px] space-y-5'></img>
+                        <span className='text-white font-semibold text-xl'>Individuals</span>
+                        <span className='text-gray-700 text-[15px]'>Learn More</span>
+                        </div>
+                        <div className='w-[250px] h-[220px] bg-black bg-opacity-90 flex flex-col justify-center items-center space-y-3'>
+                        <img src='https://icones.pro/wp-content/uploads/2022/03/icone-d-ordinateur-portable-orange.png' className='w-[50px] space-y-5'></img>
+                        <span className='text-white font-semibold text-xl'>Individuals</span>
+                        <span className='text-gray-700 text-[15px]'>Learn More</span>
+                        </div>
+                    </div>
+                    </div>
+
     </div>
   )
 }
