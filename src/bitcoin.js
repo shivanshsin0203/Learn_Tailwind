@@ -74,8 +74,36 @@ function Bitcoin() {
                         </div>
                     </div>
                     </div>
-                <div className=' w-full h-full mt-5 bg-white'>
-                 <div>Get St</div>
+                <div className=' w-full h-full mt-[55px] bg-white'>
+                 <div className=' text-2xl text-orange-400 mt-4 py-4 font-semibold text-center'>Get Started with Bitcoin</div>
+                 <div className=' w-full h-{700px} flex flex-col-reverse md:flex-row justify-center space-x-14 mt-12 p-7'>
+                 <div className='md:w-1/2 w-full flex flex-wrap text-xl md:mt-16 md:pl-8 mt-12'>
+                        <p>
+                            Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network. <span style={{ fontWeight: 'bold', color: 'black' }}>Bitcoin is open-source; its design is public, nobody owns or controls Bitcoin</span > <span style={{ fontWeight: 'semibold', color: 'blue' }}> and everyone can take part.</span> Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous payment system.
+                        </p>
+                        <div className=' flex flex-col space-y-8 mt-5'>
+                        <div className='  flex space-x-4 items-center'>
+                         <img src='https://bitcoin.org/img/icons/main_ico_instant.svg?1702235293' className=' w-8'></img>
+                         <p className=' text-black'>Fast peer-to-peer transactions</p>
+                        </div>
+                        <div className='  flex space-x-4 items-center'>
+                         <img src='https://bitcoin.org/img/icons/main_ico_worldwide.svg?1702235293' className=' w-8'></img>
+                         <p className=' text-black'>Worldwide payments</p>
+                        </div>
+                        <div className='  flex space-x-4 items-center'>
+                         <img src='https://bitcoin.org/img/icons/main_ico_lowfee.svg?1702235293' className=' w-8'></img>
+                         <p className=' text-black'>Low processing fee</p>
+                        </div>
+                        </div>
+                    </div>
+
+                  <div className=' md:w-1/2 w-full items-center mr-7'>
+                    <img src='https://bitcoin.org/img/home/bitcoin-img.svg?1702235293'></img>
+                  </div>
+                 </div>
+                </div>
+                <div className=' w-full mt-9 bg-white flex justify-center h-{200px}'>
+                <div className='w-[280px] h-14 bg-black text-white flex items-center justify-center p-2 font-semibold md:mt-4 cursor-pointer'>Get Started With Bitcoin</div>
                 </div>
     </div>
   )
